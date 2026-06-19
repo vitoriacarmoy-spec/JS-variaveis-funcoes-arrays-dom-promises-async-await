@@ -1,6 +1,8 @@
 /*sincrono bloqueia o codigo de ser mostrado
 asincrono mostra na hora
-pode por uma funçao assincrona real no objeto de promessa */
+pode por uma funçao assincrona real no objeto de promessa 
+async assincrono
+await espera completar*/
 syncFunc()
 console.log('Hello!')
 
