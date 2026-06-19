@@ -10,7 +10,7 @@ asyncFunc()
 console.log('Hello!')
 
 function getWeather(){
-    return new Promise(function(resolve,reject)
+    return new Promise(function(resolve,reject))
 setTimeout(() => {
 resolve('Sunny')
     },100)
@@ -28,7 +28,7 @@ function(data){
 }
 */
 function getWeatherIcon(weather){
- return new Promise(function(resolve,reject)
+ return new Promise(function(resolve,reject))
 setTimeout(() => {
     switch(weather){
         case 'Sunny':
